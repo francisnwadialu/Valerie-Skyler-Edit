@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+.cache
+
+# Local env (never commit real values)
+.env*.local

@@ -1,0 +1,20 @@
+# Cloudflare static assets redirects. The site is a static export, so these are
+# the only redirects that work in production; next.config.ts keeps the same list
+# for `next dev`. Specific paths come first, catch-alls after.
+
+/start-here / 302
+/collections /music 302
+/collections/* /music 302
+/work /music 302
+/work/juno /music/juno 302
+/work/* /music 302
+/services /shows 302
+/services/* /shows 302
+/studio /cast 302
+/journal /articles 302
+/journal/* /articles 302
+/discography /music 302
+/discography/* /music 302
+/pricing /sign-up 302
+/legal/cookies /legal/privacy 302
+/legal/terms /legal/privacy 302
